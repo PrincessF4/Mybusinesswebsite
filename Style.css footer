@@ -1,0 +1,105 @@
+/* Footer */
+.footer {
+  background: #111;
+  color: #ccc;
+  padding: 60px 20px;
+  margin-top: 60px;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 40px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-column {}
+
+.footer-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.footer-logo {
+  width: 40px;
+  height: 40px;
+  background: #FF4423;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.footer-title {
+  font-size: 22px;
+  letter-spacing: -0.5px;
+  color: white;
+}
+
+.footer-text {
+  font-size: 14px;
+  color: #aaa;
+  line-height: 1.6;
+}
+
+.footer-heading {
+  margin-bottom: 15px;
+  color: white;
+  font-weight: bold;
+}
+
+.footer-list {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-list li {
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.footer-list a {
+  color: #bbb;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.footer-list a:hover {
+  color: white;
+}
+
+.footer-gdpr {
+  color: #7fff7f;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.footer-bottom {
+  border-top: 1px solid #333;
+  margin-top: 40px;
+  padding-top: 20px;
+  text-align: center;
+  color: #777;
+  font-size: 14px;
+}
+
+.footer-links {
+  margin-top: 8px;
+}
+
+.footer-links a {
+  color: #bbb;
+  text-decoration: none;
+  margin: 0 5px;
+  transition: 0.3s;
+}
+
+.footer-links a:hover {
+  color: white;
+}
