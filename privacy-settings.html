@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Privacy Settings — FORMARE</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <button class="brand" data-nav="index.html"><span class="brand-badge">FOR</span><span class="brand-name">FORMARE</span></button>
+      <nav class="main-nav"><a href="index.html">Home</a><a href="privacy-settings.html" class="active">Privacy</a></nav>
+      <div class="actions"><button class="cta">Find Your Fit</button></div>
+    </div>
+  </header>
+
+  <main>
+    <section class="wrap page-content">
+      <div class="privacy-header">
+        <div class="icon">🛡️</div>
+        <h1>Privacy & Data Settings</h1>
+        <p class="muted">Manage your privacy preferences and control how your data is used at FORMARE.</p>
+      </div>
+
+      <div class="privacy-panel gradient">
+        <h2>Your Privacy Matters</h2>
+        <p>You have full control over your personal data and body scanning information. Use the settings below to customise your privacy preferences.</p>
+        <ul class="privacy-features">
+          <li>256-bit Encryption</li>
+          <li>UK GDPR Compliant</li>
+          <li>Your Data, Your Choice</li>
+        </ul>
+      </div>
+
+      <div class="settings-grid">
+        <div class="setting">
+          <div>
+            <h3>Store Body Scan Measurements</h3>
+            <p>Save your 3D body measurements for personalised fit recommendations.</p>
+          </div>
+          <div><input type="checkbox" id="bodyScanStorage" checked /></div>
+        </div>
+
+        <div class="setting">
+          <div>
+            <h3>Share Measurements with Partner Brands</h3>
+            <p>Allow us to share measurements with brands for custom fit ordering.</p>
+          </div>
+          <div><input type="checkbox" id="shareMeasurements" checked /></div>
+        </div>
+
+        <div class="setting">
+          <div>
+            <h3>Personalized Recommendations</h3>
+            <p>Use your data to suggest styles that will fit you perfectly.</p>
+          </div>
+          <div><input type="checkbox" id="personalizedRecommendations" checked /></div>
+        </div>
+
+        <div class="setting">
+          <div>
+            <h3>Analytics Tracking</h3>
+            <p>Allow anonymised analytics to help improve our service.</p>
+          </div>
+          <div><input type="checkbox" id="analyticsTracking" /></div>
+        </div>
+
+        <div class="setting">
+          <div>
+            <h3>Marketing Emails</h3>
+            <p>Receive promotional offers and new brand partnerships.</p>
+          </div>
+          <div><input type="checkbox" id="marketingEmails" /></div>
+        </div>
+
+        <div class="setting">
+          <div>
+            <h3>Push Notifications</h3>
+            <p>Get notified about orders, exclusive deals and recommendations.</p>
+          </div>
+          <div><input type="checkbox" id="pushNotifications" checked /></div>
+        </div>
+
+        <div class="data-actions">
+          <div>
+            <h3>Download Your Data</h3>
+            <p>Request a copy of your personal data, including body scans and order history.</p>
+            <button id="downloadData" class="button outline full">Request Data Download</button>
+          </div>
+
+          <div>
+            <h3>Delete Body Scans</h3>
+            <p>Permanently delete all your body scan data. Deletion takes up to 30 days.</p>
+            <button id="deleteBodyScans" class="button warn full">Delete Body Scans</button>
+          </div>
+
+          <div class="danger">
+            <h3>Delete Account</h3>
+            <p>Delete your FORMARE account and all associated data. This is irreversible.</p>
+            <button id="deleteAccount" class="button danger full">Delete My Account</button>
+          </div>
+        </div>
+      </div>
+
+    </section>
+  </main>
+
+  <footer class="site-footer small-footer">
+    <div class="wrap footer-grid">
+      <div class="brand-compact"><span class="brand-badge">FOR</span> <strong>FORMARE</strong></div>
+      <div><h4>Quick Links</h4><ul class="link-list"><li><a href="privacy-policy.html">Privacy Policy</a></li></ul></div>
+      <div><h4>Contact</h4><p class="muted">privacy@formare.com</p></div>
+      <div><h4>More</h4><p class="muted"><a href="https://ico.org.uk" target="_blank">ICO</a></p></div>
+    </div>
+    <div class="footer-bottom">© 2025 FORMARE. All rights reserved.</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
